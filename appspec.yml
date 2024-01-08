@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: target/cloud-comp-1.0-SNAPSHOT.jar
+  - source: *
     destination: /home/ec2-user/cloudauto
 
 hooks:
