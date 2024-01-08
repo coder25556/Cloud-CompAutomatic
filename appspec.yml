@@ -1,0 +1,11 @@
+version: 0.0
+os: linux
+files:
+  - source: /path/to/your/snapshot.jar
+    destination: /home/ec2-user/cloudauto
+
+hooks:
+  # Optional: Sie können hier auch Lifecycle-Hooks definieren, wie z.B. das Starten Ihrer Anwendung
+  ApplicationStart:
+    - location: scripts/start_application.sh
+      timeout: 180
