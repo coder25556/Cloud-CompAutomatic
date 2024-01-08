@@ -4,4 +4,5 @@
 cd /home/ec2-user/cloudauto
 
 # Starten Sie die Quarkus-Anwendung.
-mvn quarkus:dev -Dquarkus.http.host=0.0.0.0
+nohup mvn quarkus:dev -Dquarkus.http.host=0.0.0.0 &
+exit 0
