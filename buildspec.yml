@@ -19,7 +19,7 @@ phases:
 
 artifacts:
   files:
-    - target/*-runner.jar
+    - target/*-SNAPSHOT.jar
 
 cache:
   paths:
