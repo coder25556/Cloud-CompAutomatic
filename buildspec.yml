@@ -19,10 +19,10 @@ phases:
 
 artifacts:
   files:
-    - target/**
+    - '**/*'
   discard-paths: no
-  base-directory: target
+  base-directory: ''
 
 cache:
   paths:
-    - /root/.m2/repository/**/*
+    - '/root/.m2/repository/**/*'
