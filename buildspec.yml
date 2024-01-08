@@ -19,9 +19,10 @@ phases:
 
 artifacts:
   files:
-    - target/*-SNAPSHOT.jar
-  discard-paths: yes
-  packaging: NONE
+    - target/**
+  discard-paths: no
+  base-directory: target
+
 cache:
   paths:
     - /root/.m2/repository/**/*
