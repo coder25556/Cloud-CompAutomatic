@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /path/to/your/snapshot.jar
+  - source: target/*-SNAPSHOT.jar
     destination: /home/ec2-user/cloudauto
 
 hooks:
