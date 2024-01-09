@@ -20,4 +20,4 @@ else
     # Führen Sie hier Aktionen aus, wenn das Skript erfolgreich war
 fi
 
-Exit 0
+exit 0
