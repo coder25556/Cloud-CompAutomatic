@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Navigieren zum Verzeichnis mit der SNAPSHOT.jar-Datei
-cd /home/ec2-user/cloudauto/target/quarkus-app || exit 1
+cd /home/ec2-user/cloudauto/target/quarkus-app
 
 # Starten Sie die Quarkus-Anwendung im Hintergrund mit einem Timeout
 # Setzen Sie den gewünschten Timeout-Wert in Sekunden
